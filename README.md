@@ -1,4 +1,3 @@
-````markdown
 # Click-to-Buy
 
 A **beginner-friendly JavaScript project** that simulates an e-commerce "Add to Cart" feature. Clicking on a product's **Add to Cart** button displays the original price and applies a discount to selected items.
@@ -27,11 +26,7 @@ This project is ideal for learning basic **JavaScript concepts**, including arra
 
 ## Screenshot
 
-## Screenshot
-
 ![Product List Screenshot](https://github.com/user-attachments/assets/f8ab9093-1145-4030-b16d-d11406fb51ba)
-
-> Replace `screenshot.png` with your actual screenshot file in the repository.
 
 ## Live Demo
 
@@ -78,5 +73,4 @@ open index.html
 
 This project is open-source and free to use.
 
-```
 ```
