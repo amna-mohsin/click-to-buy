@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="products" id="products">
+        <h1 class="heading">latest<span>products</span></h1>
+        <div class="box-container" id="product-list">
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="Assets/sneaker_1.webp" alt="Sawa Sneakers">
+                    <div class="icons">
+                        <a href="#" class="cart-btn" onclick="addToCart(products[0])">add to cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>AeroFlash</h3>
+                    <div class="price">$12.99<span>$14.39</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/Sneakers_2.jpeg" alt="">
+                    <div class="icons">
+                        <a href="#" class="cart-btn" onclick="addToCart(products[1])">add to cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>StrideX</h3>
+                    <div class="price">$13.90</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Assets/Sneakers_3.jpeg" alt="">
+                    <div class="icons">
+                        <a href="#" class="cart-btn" onclick="addToCart(products[2])">add to cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Skyline Rush</h3>
+                    <div class="price">$18.30</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
